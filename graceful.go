@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"golang.org/x/net/netutil"
+	"github.com/golang/net/netutil"
 )
 
 // Server wraps an http.Server with graceful connection handling.
